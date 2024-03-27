@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sign-up {
+  display: flex;
+}
+.sign-up .left {
+  position: relative;
+  width: min(50vw, 936px);
+}
+.sign-up .left .img {
+  width: 100%;
+  height: 100%;
+}
+.sign-up .left .logo {
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign-up .right {
+  max-width: 456px;
+  margin: 220px auto;
+}
+.sign-up .right button {
+  width: 100%;
+  padding-block: 10px;
+  background-color: #141718;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.400000006px;
+  text-align: center;
+  cursor: pointer;
+}
+.sign-up .right .privacy {
+  display: flex;
+  margin-block: 32px;
+  align-items: center;
+  gap: 12px;
+  color: #6c7275;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.sign-up .right .privacy span {
+  color: #141718;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.sign-up .right h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 24px;
+  letter-spacing: -0.400000006px;
+  text-align: left;
+  color: #141718;
+}
+.sign-up .right p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.sign-up .right p span a {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #38cb89;
+}
+.sign-up .right .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.sign-up .right .inputs input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #e8ecef;
+  padding: 2px 6px;
+  width: 100%;
+}
+.sign-up .right .inputs input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.sign-up .right .inputs input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.sign-up .right input:last-child {
+  position: relative;
+}
+.sign-up .right .eye-icon {
+  position: absolute;
+  right: 0;
+}
+.sign-up .password-container {
+  position: relative;
+}
+.sign-up .password-container input[type=password] {
+  padding-right: 30px; /* Adjust as needed to make space for the icon */
+}
+.sign-up .password-container .eye-icon {
+  position: absolute;
+  right: 5px; /* Adjust as needed for positioning */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .sign-up {
+    flex-direction: column;
+  }
+  .sign-up .left {
+    width: 100vw;
+  }
+}/*# sourceMappingURL=style.css.map */
